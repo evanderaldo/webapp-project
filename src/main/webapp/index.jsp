@@ -2,15 +2,38 @@
 <html>
   <head>
     <title>Dog Breeds</title>
+    <style>
+      body {
+        background-image: url("https://example.com/background-image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
-    <h1>Big Dog Breeds are my favorites</h1>
-    <p>There are many different breeds of dogs, each with their own unique characteristics and personality traits. Here are some of the most popular dog breeds:</p>
-    <h2>Labrador Retriever</h2>
-    <p>The Labrador Retriever is one of the most popular dog breeds in the world. They are known for their friendly and outgoing personalities, as well as their intelligence and trainability.</p>
-    <h2>German Shepherd</h2>
-    <p>The German Shepherd is a breed of dog that is known for its strength, loyalty, and intelligence. They are often used as police dogs, search and rescue dogs, and as assistance dogs for people with disabilities.</p>
-    <h2>Bulldog</h2>
-    <p>The Bulldog is a medium-sized breed of dog that is known for its wrinkled face and stocky build. They are typically gentle and easygoing dogs, but they can also be stubborn and determined.</p>
+    <header>
+      <h1>Dog Breeds</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Breeds</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Popular Breeds</h2>
+      <ul>
+        <li>Labrador Retriever</li>
+        <li>German Shepherd</li>
+        <li>Golden Retriever</li>
+        <li>Bulldog</li>
+        <li>Poodle</li>
+      </ul>
+    </main>
+    <footer>
+      <p>&copy; 2023 Dog Breeds</p>
+    </footer>
   </body>
 </html>
+
