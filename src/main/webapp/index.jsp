@@ -67,7 +67,7 @@
   </head>
   <body>
     <header>
-      <h1>Accenture</h1>
+      <h1>Olympus Petronia</h1>
     </header>
     <nav>
       <a href="#">Home</a>
