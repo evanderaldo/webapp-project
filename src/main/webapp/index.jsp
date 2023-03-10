@@ -77,12 +77,12 @@
       <a href="#">Contact</a>
     </nav>
     <section>
-      <h1>Welcome to Accenture</h1>
+      <h1>Welcome to Olympus Petronia</h1>
       <p>We are a global professional services firm that provides strategy, consulting, digital, technology and operations services to a variety of clients.</p>
       <a href="#" class="cta">Learn More</a>
     </section>
     <footer>
-      <p>&copy; 2023 Accenture. All rights reserved.</p>
+      <p>&copy; 2023 Olympus Petronia. All rights reserved.</p>
     </footer>
   </body>
 </html>
