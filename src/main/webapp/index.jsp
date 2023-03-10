@@ -74,7 +74,7 @@
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Careers</a>
-      <a href="#">Nadia Saly aka APK</a>
+      <a href="#">Nadia Saly aka AperKoti</a>
     </nav>
     <section>
       <h1>Welcome to Olympus Petronia</h1>
