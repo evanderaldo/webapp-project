@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Accenture Homepage</title>
+    <title>Olympus Petronia Homepage</title>
     <style>
       body {
         font-family: Arial, sans-serif;
