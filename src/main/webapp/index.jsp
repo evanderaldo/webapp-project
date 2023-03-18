@@ -1,89 +1,515 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8" />
-	<title>MetaSee -- An interactive visualizaion toolbox for metagenomic sample analysis and comparison</title>
-<link rel="stylesheet" href="skin/css/indexflash.css">
-<link rel="stylesheet" href="skin/css/alertbrowser.css">
-			<link rel="stylesheet" href="skin/css/base2.css" type="text/css" media="all" />
-			<link rel="stylesheet" href="skin/css/jquery-ui.css" type="text/css" media="all" />
-			<script src="skin/js/jquery.min.js" type="text/javascript"></script>
-			<script src="skin/js/jquery-ui.min.js" type="text/javascript"></script>
-			<script src="skin/js/download.js" type="text/javascript"></script>
-			<script type="text/javascript" src="/skin/js/alertbrowser.js"></script>	
-		<style type="text/css">
-	
-	#jq-books{width:200px;float:right;margin-right:0}
-	#jq-books li{line-height:1.25em;margin:1em 0 2.8em;clear:left}
-	#home-content-wrapper #jq-books a.jq-bookImg{float:left;margin-right:10px;width:55px;height:70px}
-	#jq-books h3{margin:0 0 .2em 0}
-	#home-content-wrapper #jq-books h3 a{font-size:1em;color:black;}
-	#home-content-wrapper #jq-books a.jq-buyNow{font-size:1em;color:white;display:block;background:url(http://static.jquery.com/files/rocker/images/btn_blueSheen.gif) 50% repeat-x;text-decoration:none;color:#fff;font-weight:bold;padding:.2em .8em;float:left;margin-top:.2em;}
-	
-	</style>
-    
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="description" content="Taxi Grabber - HTML Template">
+		<meta name="author" content="Coffeecream Themes, info@coffeecream.eu">
+		<title>Taxi Grabber - HTML Template</title>
+		<link rel="shortcut icon" href="images/favicon.png">
 
-    
-</head>
+		<!-- Main Stylesheet -->
+		<link href="css/style.css" rel="stylesheet">
+	</head>
 
-<body id="download" onLoad=checkBrowser();>
+	<body>
 
+        <!-- Header start -->
+        <header class="header">
+            <div class="top-bar">
+                <div class="container">
+                    <ul class="social-links">
+                        <li><a href="http://facebook.com">Facebook</a></li>
+                        <li><a href="http://twitter.com">Twitter</a></li>
+                        <li><a href="http://linkedin.com">LinkedIn</a></li>
+                        <li><a href="http://instagram.com">Instagram</a></li>
+                    </ul>
+                    <button id="phone-trigger" class="phone-trigger ion-android-call"></button>
+                    <ul class="phones">
+                        <li><a href="tel:8121-416-416"><span>Taxi</span> 8121-416-416</a></li>
+                        <li><a href="tel:8121-416-416"><span>Garage</span> 8121-416-416</a></li>
+                        <li><a href="tel:8121-416-416"><span>Contact</span> 8121-416-416</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav-bar" class="nav-bar">
+                <div class="container">
+                    <a href="index.html" class="logo"><img src="images/logo.svg" alt="Taxi Grabber - HTML Template" /></a>
+                    <button id="nav-trigger" class="nav-trigger ion-android-menu"></button>
+                    <nav class="main-nav">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="drivers.html">Drivers</a></li>
+                            <li><a href="cars.html">Cars</a></li>
+                            <li><a href="garage.html">Garage</a></li>
+                      <!--      <li><a href="locations.html">Locations</a></li>
+                            <li><a href="#!">Pages</a>
+                                <ul>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <li><a href="jobs.html">Jobs</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="404.html">Error 404</a></li>
+                                    <li><a href="#!">Third Level Nav</a>
+                                        <ul>
+                                            <li><a href="#!">Third Level 1</a></li>
+                                            <li><a href="#!">Third Level 2</a></li>
+                                            <li><a href="#!">Third Level 3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
-<jsp:include page="/template/head_navigation.txt" />
+            <svg height="20" width="2560" class="pattern">
+            <defs>
+            <pattern id="header-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect width="10" height="10" />
+                <rect x="10" y="10" width="10" height="10" />
+            </pattern>
+            <mask id="header-mask" x="0" y="0" width="2560" height="20" >
+                <rect x="0" y="0"  width="2560" height="20" />
+            </mask>
+            </defs>
+            <rect x="0" y="0" width="2560" height="20" id="header-image" />
+            </svg>
 
-	<div id="content-wrapper">
-		<div id="content">
-		<div class="content-top"></div>		<div class="content">
-		
-<jsp:include page="/template/index_flash" />
+        </header>
+        <!-- Header end -->
 
+		<!-- Content start -->
+		<div class="content">
 
-<div id="download-builder">
-	<img src="skin/images/download_builder.png" id="download_builder_icon" alt="download builder icon" width="174" height="157" />
-	<h1>What is MetaSee</h1>
-	<p class="intro">MetaSee is an online toolbox for metagenomic data visualization. It can take metagenomic datasets (community structure) in various formats as input, provide a lot of beautiful and interactive visualization effects for the metagenomic dataset in different angles, and smoothly shift among different visualization effects.
-	</p>
-<p class="intro_image"><img src="skin/images/metasee_index_introduce_simple_phylogenetic_tree.jpg" width="200" height="200"/><img src="skin/images/metasee_index_introduce_circle_phylogenetic_tree.jpg" width="200" height="200"/><img src="skin/images/metasee_index_introduce_circle_pie_chart.jpg" width="200" height="200"/><img src="skin/images/metasee_index_introduce_main_chart.jpg" width="200" height="200"/></p>
+			<!-- Slider start -->
+			<div class="slider owl-carousel">
+				<div class="slide">
+					<img src="http://placehold.it/1600x900" alt="" class="slider-image" />
+					<div class="slider-subtitle">Call us 24/7</div>
+					<div class="slider-title">8121-416-416</div>
+					<div class="slider-button"><a href="about.html" class="btn btn-primary">Read more about us</a></div>
+				</div>
+				<div class="slide">
+					<img src="http://placehold.it/1600x900" alt="" class="slider-image" />
+					<div class="slider-subtitle">Only high qualified</div>
+					<div class="slider-title">Chauffers</div>
+					<div class="slider-button"><a href="drivers.html" class="btn btn-primary">Check out our drivers</a></div>
+				</div>
+				<div class="slide">
+					<img src="http://placehold.it/1600x900" alt="" class="slider-image" />
+					<div class="slider-subtitle">Our offer includes</div>
+					<div class="slider-title">Services</div>
+					<div class="slider-button"><a href="services.html" class="btn btn-primary">How can we help</a></div>
+				</div>
+			</div>
+			<!-- Slider end -->
+			
+			<!-- Booking start -->
+			<section class="booking">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>Book taxi online</h2>
+								<h6>Save time &amp; money</h6>
+							</div>
+						</div>
+					</div>
+					<form class="booking-form">
+						<div class="row">
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="indica" />
+									<label for="indica"><i class="icon-car-indica"></i>indica</label>
+								</fieldset>
+							</div>
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="SWIFT" />
+									<label for="SWIFT"><i class="icon-car-SWIFT"></i>SWIFT</label>
+								</fieldset>
+							</div>
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="SEDAN" />
+									<label for="SEDAN"><i class="icon-car-SEDAN"></i>SEDAN</label>
+								</fieldset>
+							</div>
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="minivan" />
+									<label for="minivan"><i class="icon-car-minivan"></i>Minivan</label>
+								</fieldset>
+							</div>
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="suv" />
+									<label for="suv"><i class="icon-car-suv"></i>SUV</label>
+								</fieldset>
+							</div>
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="limousine" />
+									<label for="limousine"><i class="icon-car-limo"></i>Limousine</label>
+								</fieldset>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<fieldset>
+									<input type="text" name="name" placeholder="Name" />
+								</fieldset>
+								<fieldset>
+									<input type="email" name="email" placeholder="Email" />
+								</fieldset>
+							</div>
+							<div class="col-sm-3">
+								<fieldset>
+									<input type="text" name="from" placeholder="From" />
+								</fieldset>
+								<fieldset>
+									<input type="text" name="to" placeholder="To" />
+								</fieldset>
+							</div>
+							<div class="col-sm-3">
+								<fieldset>
+									<input type="text" name="date" placeholder="Date" class="datepicker" />
+								</fieldset>
+								<fieldset>
+									<input type="text" name="time" placeholder="Time" class="timepicker" />
+								</fieldset>
+							</div>
+							<div class="col-sm-3">
+								<fieldset>
+									<select name="cars">
+										<option>Cars</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+									</select>
+								</fieldset>
+								<fieldset>
+									<select name="passengers">
+										<option>Passengers</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+									</select>
+								</fieldset>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<fieldset>
+									<textarea name="message" placeholder="Message"></textarea>
+								</fieldset>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<button class="btn btn-primary">Book Now</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+			<!-- Booking end -->
 
-<div style="width:900px; margin:20px 20px 20px 0;"><hr></div>
-<h1>Why is it needed?</h1>
-<p class="wholewidth">MetaSee is not only for producing publication-quality graph, but also designed for facilitation of manual analysis and further data mining of the metagenomic data.</p>
-<img src="skin/images/index_why_need_scientistbusing.jpg" width="180" height="130" style="float:left; margin-right:20px;">
-<p class="wholewidth">The reality of cutting-edge science reveals a grimmer picture, replete with incomprehensible figures, illegible color combination and awkward type faces. This is in large part due to the fact that the people in charge of science are too busy with the science to worry about figures. So, it is important for software designers to continue providing scientists with tools that are useful, effective and pretty.</p>
-<p class="wholewidth">Although many metagenomic data analysis tasks can be accomplished with automated processes, some steps continue to require human judgments and are frequently rate limiting, for example the comparison between two samples. Visualization can augment our ability to reason about complex data, thereby increasing the efficiency of manual analysis. In some cases, the appropriate image makes the solution obvious. Given the importance of human interpretation, particularly in the early hypothesis generation stages of biological research, visualization tools also provide a valuable complement to automated computational techniques enabling us to derive scientific insight from large-scale data sets.</p>
-<div style="width:900px; margin:20px 20px 20px 0;"><hr></div>
-<a href="/file/12s0834.xml" target="_blank">
-<img src="/skin/images/otherdata_12s0834.jpg" style=" float: right;margin-right: 20px;" alt="download builder icon" width="180" height="180" /></a>
-<h1>Only for metagenomics? No!</h1>
-<p style="font-size:1.5em; color:#666; line-height:1.5; width:650px; margin:1em 0 1em;">Metasee is very flexible: It can not only be applied in metagenomics research area,  but can also take any kind of data in tree structure as input and give illustrative visualization results. Click the right picture to get a sample data of project "Adoption of Genetically Engineered Crops", which comes from <a href="http://www.census.gov/compendia/statab/cats/agriculture/crops.html" target="_blank">the Census</a>.
-<p/><p>&nbsp;</p>
-<div style="width:900px; margin:20px 20px 20px 0;"><hr></div>
-<h1>It is so easy to use!</h1>
-<p class="wholewidth">MetaSee has a user-friendly GUI. Users can get clear results with only click opeations.</p>
-<p class="wholewidth">To make it friendly to the developers, MetaSee take file in XML format as input. And both multiple and single files, both multiple sample and single sample files can be accepted.</p>
-
-<p class="wholewidth">We have developed two projects to show-case the applications of MetaSee: <em><a href="/visualizationlab/map/">"Metagenome global survey"</a></em> and <em><a href="/visualizationlab/mouth/">"Digital Mouth"</a></em>. </p>
-<p class="wholewidth"><a href="/visualizationlab/map/"><img src="skin/images/index_project_metagenome_globle_distribution.jpg" style="float:left" border="0" width="400" height="200"></a><a href="/visualizationlab/mouth/"><img src="skin/images/index_project_digital_mouth.jpg" style="float:right" width="400" height="200" border="0"></a></p>
-<p style="clear:both">&nbsp;</p>
-<p align="center" style="color:#999999">Projects developed by MetaSee</p>
-
- 
-<div style="width:900px; margin:20px 20px 20px 0;"><hr></div>
-<img src="skin/images/index_developdirection_program_languague.jpg" style=" float: right;margin-right: 20px;" alt="download builder icon" width="200" height="200" />
-<h1>Development of MetaSee</h1>
-<p style="font-size:1.5em; color:#666; line-height:1.5; width:650px; margin:1em 0 1em;">
-
-We are working on the development of MetaSee, and adding more novel interactive functions using HTML5 canvas and Vector Graphics (SVG), which makes it more powerful and easy-to-use. Furthermore, additional APIs of MetaSee for new software will also be released for compatibility. If you have problems, comments, reporting bugs, or want to contribute to further development of MetaSee, please feel free to contact <a href="mailto:songbx@qibebt.ac.cn">songbx AT qibebt.ac.cn</a>.</p>
-<p> </p>
-
-	
-
-
-</div><!-- /download-builder -->		</div>
-
+			<!-- Price start -->
+			<section class="alt prices">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>Prices</h2>
+								<h6>No hidden charges</h6>
+							</div>
+							<div class="info show-mobile">
+								Drag the table left and right.
+							</div>
+							<div class="responsive-table">
+								<table class="price-table">
+									<thead>
+										<tr>
+											<th></th>
+											<th><i class="icon-car-indica"></i>indica</th>
+											<th><i class="icon-car-SWIFT"></i>SWIFT</th>
+											<th><i class="icon-car-SEDAN"></i>SEDAN</th>
+											<th><i class="icon-car-minivan"></i>Minivan</th>
+											<th><i class="icon-car-suv"></i>SUV</th>
+											<th><i class="icon-car-limo"></i>Limousine</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>Per km</th>
+											<td>$5</td>
+											<td>$6</td>
+											<td>$7</td>
+											<td>$8</td>
+											<td>$10</td>
+											<td>$15</td>
+										</tr>
+										<tr>
+											<th>Landing</th>
+											<td>$5</td>
+											<td>$6</td>
+											<td>$7</td>
+											<td>$8</td>
+											<td>$10</td>
+											<td>$50</td>
+										</tr>
+										<tr>
+											<th>Parking</th>
+											<td>$5</td>
+											<td>$6</td>
+											<td>$7</td>
+											<td>$8</td>
+											<td>$10</td>
+											<td>$30</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<th></th>
+											<td><a href="#!" class="btn btn-primary">More</a></td>
+											<td><a href="#!" class="btn btn-primary">More</a></td>
+											<td><a href="#!" class="btn btn-primary">More</a></td>
+											<td><a href="#!" class="btn btn-primary">More</a></td>
+											<td><a href="#!" class="btn btn-primary">More</a></td>
+											<td><a href="#!" class="btn btn-primary">More</a></td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Price end -->
+			
+			<!-- Why Choose Us start -->
+			<section class="why">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>Why choose us</h2>
+								<h6>Best services in the city</h6>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-shield-2"></i>
+								<p><strong>Secured booking</strong><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ligula, elementum accumsan accumsan nec, venenatis ut justo.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-thumbs-up-2"></i>
+								<p><strong>Reliable services</strong><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ligula, elementum accumsan accumsan nec, venenatis ut justo.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-taxi-1"></i>
+								<p><strong>Luxury cars</strong><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ligula, elementum accumsan accumsan nec, venenatis ut justo.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-credit-card"></i>
+								<p><strong>Credit cards accepted</strong><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ligula, elementum accumsan accumsan nec, venenatis ut justo.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-headphone"></i>
+								<p><strong>Customer service</strong><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ligula, elementum accumsan accumsan nec, venenatis ut justo.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-smoke-free-area"></i>
+								<p><strong>Non smoking and clean</strong><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ligula, elementum accumsan accumsan nec, venenatis ut justo.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<a href="about.html" class="btn btn-primary">Read more about us</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Why Choose Us end -->
+			
+			<!-- Testimonials start -->
+			<section class="testimonials">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>Testimonials</h2>
+								<h6>Customer reviews</h6>
+							</div>
+							<div class="owl-carousel">
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Taxi grabber is exactly what our business has been lacking. Great job, I will definitely be ordering again! Not able to tell you how happy I am with taxi grabber. If you aren’t sure, always go for taxi grabber.
+										<footer>Amanda Reacher, Global Investements</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Taxi Grabber is the most valuable business resource we have EVER purchased. I couldn't have asked for more than this. After using Taxi Grabber my business skyrocketed!
+										<footer>Robert Bartlett, Buena Vista Garden Maintenance</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Keep up the excellent work. I would like to personally thank you for your outstanding product. I strongly recommend Taxi Grabber to everyone interested in running a successful business! Not able to tell you how happy I am with Taxi Grabber.
+										<footer>Dolores Garza, Audio Aid</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Taxi Grabber is the next killer theme. This is simply unbelievable! Man, this thing is getting better and better as I learn more about it. Taxi Grabber is exactly what our business has been lacking.
+										<footer>Louis Rush, Access Asia</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Definitely worth the investment. I wish I would have thought of it first. Taxi Grabber impressed me on multiple levels.
+										<footer>Florence Schilling, Sunburst Garden Management</footer>
+									</blockquote>
+								</div>
+							</div>
+							<a href="testimonials.html" class="btn btn-secondary">Read all testimonials</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Testimonials end -->
 
 		</div>
-	
-<jsp:include page="/template/footer.txt" />
-</body>
+		<!-- Content end -->
+
+		<!-- Footer start -->
+		<footer class="footer">
+
+			<svg height="20" width="2560" class="pattern">
+				<defs>
+					<pattern id="footer-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+						<rect width="10" height="10" />
+						<rect x="10" y="10" width="10" height="10" />
+					</pattern>
+					<mask id="footer-mask" x="0" y="0" width="2560" height="20" >
+						<rect x="0" y="0"  width="2560" height="20" />
+					</mask>
+				</defs>
+				<rect x="0" y="0" width="2560" height="20" id="footer-image" />
+			</svg>
+
+			<div class="widgets">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<div class="widget">
+								<h6>About us</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pulvinar ante eu lacinia vulputate. Curabitur lacus purus, lacinia non tempor at, condimentum accumsan velit. Nam quis elit a ipsum mattis mattis. In pharetra ultricies massa. Duis vel malesuada odio.</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="widget">
+								<h6>Quick links</h6>
+								<ul class="quick-links">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="drivers.html">Drivers</a></li>
+									<li><a href="cars.html">Cars</a></li>
+									<li><a href="garage.html">Garage</a></li>
+									<li><a href="testimonials.html">Testimonials</a></li>
+									<li><a href="jobs.html">Jobs</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="locations.html">Locations</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="widget">
+								<h6>Contact</h6>
+								<ul class="contact">
+									<li class="hotline"><a href="tel:8121-416-416">8121-416-416</a></li>
+									<li class="phone"><a href="tel:212-647-0772">212-647-0772</a></li>
+									<li class="email"><a href="mailto:info@taxigrabber.biz">info@taxigrabber.biz</a></li>
+									<li class="address">4603 Oakwood Avenue<br>New York, 1001</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="credits">
+				<div class="container">
+					<div class="copyright">&copy; 2016 Coffecream Themes</div>
+					<ul class="social-links">
+						<li><a href="htp://facebook.com">Facebook</a></li>
+						<li><a href="htp://twitter.com">Twitter</a></li>
+						<li><a href="htp://linkedin.com">LinkedIn</a></li>
+						<li><a href="htp://instagram.com">Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer end -->
+
+		<!-- Javascripts start -->
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/picker.js"></script>
+		<script src="js/picker.date.js"></script>
+		<script src="js/picker.time.js"></script>
+		<script src="js/uber-google-maps.js"></script>
+		<script src="js/settings.js"></script>
+		<!-- Javascripts end -->
+
+	</body>
 </html>
