@@ -89,7 +89,7 @@
                     font-size: 14px;
                     line-height: 26px;
                     font-family: $heading-font;
-                    font-weight: 600;
+                    font-weight: 0;
                     color: $body-color;
                     margin-top: 20px;
                     transition: $transition-default;
@@ -139,7 +139,7 @@
         padding-bottom: 80px;
     }
     @media #{$tablet-device} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     @media #{$large-mobile} {
         padding-bottom: 40px;
@@ -147,7 +147,7 @@
     & .service-wrap-2 {
 
         & .service-content-wrap-2 {
-            padding-top: 60px;
+            padding-top: px;
             & .service-item {
             
                 & .service-img {
@@ -292,7 +292,7 @@
 .service-2-active {
     & .swiper-pagination {
         position: relative;
-        margin-top: 60px;
+        margin-top: px;
 
         & .swiper-pagination-bullet {
             width: 10px;
@@ -412,7 +412,7 @@
 
             & .title {
                 font-size: 42px;
-                line-height: 60px;
+                line-height: px;
                 font-weight: 800;
                 color: $heading-color1;
                 padding-right: 10px;

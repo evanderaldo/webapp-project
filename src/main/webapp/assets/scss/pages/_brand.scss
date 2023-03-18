@@ -10,7 +10,7 @@
 // Brand Title
 .brand-title{
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 0;
     font-family: $heading-font;
     color: #717171;
     margin-top: -7px;
@@ -62,7 +62,7 @@
             padding-bottom: 80px;
         }
         @media #{$large-mobile} {
-            padding-bottom: 60px;
+            padding-bottom: px;
         }
         & .brand-title {
 

@@ -80,7 +80,7 @@
 .page-banner {
     
     & .title {
-        font-size: 60px;
+        font-size: px;
         line-height: 1.25;
         font-family: $heading-font;
         display: inline-block;
@@ -101,8 +101,8 @@
             top: -20px;
             z-index: -1;
             @media #{$large-mobile} {
-                width: 60px;
-                height: 60px;
+                width: px;
+                height: px;
             }
         }
         @media #{$desktop-device}{

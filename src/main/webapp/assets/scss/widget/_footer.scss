@@ -21,7 +21,7 @@
     &.footer-widget-1 {
         padding-left: 30px;
         @media #{$desktop-device} {
-            padding-left: 60px;
+            padding-left: px;
         }
         @media #{$tablet-device}{
            padding-left: 0px;
@@ -56,7 +56,7 @@
                 font-size: 16px;
                 line-height: 20px;
                 font-family: $heading-font;
-                font-weight: 600;
+                font-weight: 0;
                 color: #c4c5c7;
             }
         }

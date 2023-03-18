@@ -11,7 +11,7 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     & .faq-wrap {
 
@@ -20,7 +20,7 @@
 
             & .title {
                 font-size: 48px;
-                line-height: 60px;
+                line-height: px;
                 max-width: 250px;
                 color: $heading-color1;
                 margin-left: 40px;

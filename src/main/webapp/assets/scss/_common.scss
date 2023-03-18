@@ -10,7 +10,7 @@
 }
 
 /*-- Google Font --*/
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;0;700;800&family=Open+Sans:wght@400;500;0;700&display=swap');
 
 
 
@@ -150,8 +150,8 @@ input, textarea {
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: px;
+        padding-bottom: px;
     }
 }
 .section-padding-02 {
@@ -165,7 +165,7 @@ input, textarea {
         padding-top: 80px;
     }
     @media #{$large-mobile} {
-        padding-top: 60px;
+        padding-top: px;
     }
 }
 .section-padding-03 {
@@ -179,7 +179,7 @@ input, textarea {
         padding-top: 80px;
     }
     @media #{$large-mobile} {
-        padding-top: 60px;
+        padding-top: px;
     }
 }
  
@@ -256,7 +256,7 @@ input, textarea {
         font-size: 16px;
         line-height: 30px;
         font-family: $heading-font;
-        font-weight: 600;
+        font-weight: 0;
         color: #4c4d56;
         padding: 0 50px;
         margin-top: 20px;

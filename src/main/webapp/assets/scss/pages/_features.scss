@@ -77,7 +77,7 @@
                         font-size: 16px;
                         line-height: 24px;
                         font-family: $heading-font;
-                        font-weight: 600;
+                        font-weight: 0;
                         color: #4c4d56;
                         margin-top: 40px;
     
@@ -172,7 +172,7 @@
             }
     
             & .shape-1 {
-                left: 160px;
+                left: 1px;
                 top: 140px;
                 & img {
                     width: 390px;
@@ -181,7 +181,7 @@
         }
         & .features-wrap {
             padding-top: 70px;
-            padding-bottom: 60px;
+            padding-bottom: px;
         }
     }
     @media #{$small-mobile} {     
@@ -227,7 +227,7 @@
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(3deg);
     }
 }
 
@@ -243,7 +243,7 @@
             padding: 70px 55px;
             position: relative;
             display: flex;
-            margin-top: 60px;
+            margin-top: px;
 
             &::before {
                 content: "";
@@ -258,7 +258,7 @@
             }
             & .features-item-box {
                 border-right: 1px solid #e1e1e1;
-                padding-right: 60px;
+                padding-right: px;
                 margin-right: 50px;
 
                 &.features-box-3 {
@@ -272,8 +272,8 @@
                     &.features-2,
                     &.features-4,
                     &.features-6 {
-                        margin-top: 60px;
-                        padding-top: 60px;
+                        margin-top: px;
+                        padding-top: px;
                     }
                     & .features-icon {
     
@@ -307,7 +307,7 @@
         & .features-wrap-2 {
 
             .features-item-wrap {
-                padding: 60px 40px;
+                padding: px 40px;
     
                 & .features-item-box {
                     padding-right: 20px;
@@ -707,7 +707,7 @@
         }
     }
     @media #{$large-mobile} {
-        padding-bottom: 60px; 
+        padding-bottom: px; 
     }
     @media #{$small-mobile} {
         & .features-wrap {

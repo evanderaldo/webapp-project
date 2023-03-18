@@ -23,13 +23,13 @@
             }
             @media #{$tablet-device} {
                 padding-left: 0px;
-                margin-top: 60px;
+                margin-top: px;
             }
             & .section-title {
 
                 & .title {
                     font-size: 48px;
-                    line-height: 60px;
+                    line-height: px;
                     @media #{$desktop-device} {
                         font-size: 36px;
                         line-height: 48px;
@@ -103,7 +103,7 @@
 
                 & .title {
                     font-size: 48px;
-                    line-height: 60px;
+                    line-height: px;
                 }
             }
 
@@ -150,10 +150,10 @@
 
             & .shape {
                 position: absolute;
-                left: 60px;
+                left: px;
                 top: 30px;
                 z-index: -1;
-                max-width: 560px;
+                max-width: 5px;
                 animation: round-01 5s linear infinite;
             }
         }
@@ -197,7 +197,7 @@
 
             & .overview-img {
                 padding: 0 40px;  
-                margin-top: 60px;
+                margin-top: px;
     
                 & .shape {
                     left: 90px;

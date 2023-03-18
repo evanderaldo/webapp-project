@@ -20,7 +20,7 @@
     }
     @media #{$large-mobile} {
         padding-top: 30px;
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     & .counter-wrap {
 
@@ -63,7 +63,7 @@
         padding-bottom: 80px;
     }
     @media #{$tablet-device} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     @media #{$large-mobile} {
         padding-bottom: 40px;
@@ -101,8 +101,8 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: px;
+        padding-bottom: px;
     }
     & .experience-content {
         display: flex;
@@ -130,7 +130,7 @@
                 font-weight: 400;
                 color: $heading-color1;
                 display: block;
-                margin-top: 60px;
+                margin-top: px;
                 @media #{$laptop-device} {
                     font-size: 20px;
                     margin-top: 35px;

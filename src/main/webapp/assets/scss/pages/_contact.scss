@@ -78,10 +78,10 @@
             }
             @media #{$tablet-device} {
                 margin-left: 0;
-                margin-top: 60px;
+                margin-top: px;
             }
             & .contact-form-wrap {
-                padding: 60px;
+                padding: px;
                 @media #{$desktop-device} {
                     padding: 40px;
                 }
@@ -239,7 +239,7 @@
             & .title {
                 font-size: 36px;
                 line-height: 48px;
-                font-weight: 600;
+                font-weight: 0;
                 color: $heading-color1;
                 @media #{$tablet-device} {
                     font-size: 30px;
@@ -276,7 +276,7 @@
                         height: 135px;
                         font-size: 13px;
                         color: #415674;
-                        font-weight: 600;
+                        font-weight: 0;
                         padding: 10px 25px;
                         padding-top: 15px;
                         resize: none;

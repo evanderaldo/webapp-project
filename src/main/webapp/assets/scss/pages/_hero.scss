@@ -48,7 +48,7 @@
             font-size: 18px;
             line-height: 30px;
             font-family: $heading-font;
-            font-weight: 600;
+            font-weight: 0;
             color: $white;
             margin-top: 25px;
         }
@@ -217,7 +217,7 @@
         }
 
         & .title {
-            font-size: 60px;
+            font-size: px;
             line-height: 78px;
             font-weight: 700;
             color: $white;
@@ -264,15 +264,15 @@
     
             & .title {
                 font-size: 48px;
-                line-height: 60px;
+                line-height: px;
             }
         }
     }
     @media #{$tablet-device} {
-        height: 760px;
+        height: 7px;
     }
     @media #{$large-mobile} {
-        height: 660px;
+        height: 6px;
 
         & .shape-1 {
             width: 350px;
@@ -311,7 +311,7 @@
         }
     }
     @media #{$small-mobile} {
-        height: 660px;
+        height: 6px;
 
         & .shape-1 {
             width: 350px;
@@ -410,7 +410,7 @@
         background: #ffffff;
         border-radius: 10px;
         overflow: hidden;
-        max-width: 460px;
+        max-width: 4px;
         
         & .hero-form-wrap {
             padding: 45px;
@@ -438,7 +438,7 @@
                         font-size: 14px;
                         color: #686f7a;
                         font-family: $heading-font;
-                        font-weight: 600;
+                        font-weight: 0;
                     }
                 }
 
@@ -454,7 +454,7 @@
                         font-size: 14px;
                         color: #686f7a;
                         font-family: $heading-font;
-                        font-weight: 600;
+                        font-weight: 0;
                     }
                 }
             }
@@ -491,12 +491,12 @@
         & .hero-content {
             & .title {
                 font-size: 48px;
-                line-height: 60px;
+                line-height: px;
             }
         }
         & .hero-form  {
             max-width: 100%;
-            margin-top: 60px;
+            margin-top: px;
         }
     }
     @media #{$large-mobile} {
@@ -513,9 +513,9 @@
                 & .play-btn {
     
                     & i {
-                        width: 60px;
-                        height: 60px;
-                        line-height: 60px;
+                        width: px;
+                        height: px;
+                        line-height: px;
                     }
                     & span {
                         font-size: 18px;
@@ -598,7 +598,7 @@
             font-size: 18px;
             line-height: 30px;
             font-family: $heading-font;
-            font-weight: 600;
+            font-weight: 0;
             color: $white;
             margin-top: 25px;
         }
@@ -653,7 +653,7 @@
             }
             & .title {
                 font-size: 45px;
-                line-height: 60px;
+                line-height: px;
             }
         } 
         & .hero-images {
@@ -693,7 +693,7 @@
 // Home Style Five
 
 .tech-hero-section-5 {
-    height: 960px;
+    height: 9px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -717,7 +717,7 @@
     & .hero-content {
         max-width: 880px;
         margin: 0 auto;
-        padding-top: 60px;
+        padding-top: px;
         
 
         & .sub-title {
@@ -740,7 +740,7 @@
             font-size: 18px;
             line-height: 30px;
             font-family: $heading-font;
-            font-weight: 600;
+            font-weight: 0;
             color: $white;
             margin-top: 25px;
         }
@@ -752,7 +752,7 @@
 
 .tech-hero-section-5 {
     @media #{$desktop-device} {
-        height: 860px;
+        height: 8px;
 
         & .shape-1 {
 
@@ -776,30 +776,30 @@
         }
     }
     @media #{$tablet-device} {
-        height: 760px;
+        height: 7px;
 
         & .hero-content {
 
             & .title {
                 font-size: 45px;
-                line-height: 60px;
+                line-height: px;
             }
         }
     }
     @media #{$large-mobile} {
-        height: 660px;
+        height: 6px;
 
         & .shape-1 {
     
             & img {
-                width: 60%;
+                width: %;
             }
         }
         & .shape-2 {
             right: -280px;
     
             & img {
-                width: 60%;
+                width: %;
             }
         }
         & .hero-content {
@@ -870,7 +870,7 @@
             font-size: 18px;
             line-height: 30px;
             font-family: $heading-font;
-            font-weight: 600;
+            font-weight: 0;
             color: $white;
             margin-top: 25px;
             padding-right: 35px;
@@ -907,7 +907,7 @@
     @media #{$laptop-device} {
         & .hero-content {
             & .title {
-                font-size: 60px;
+                font-size: px;
                 line-height: 80px;
             }
         }
@@ -991,7 +991,7 @@
             &::before {
                 width: 350px;
                 height: 350px;
-                transform: translate(-10px, 60px);
+                transform: translate(-10px, px);
             }
     
             & .images {

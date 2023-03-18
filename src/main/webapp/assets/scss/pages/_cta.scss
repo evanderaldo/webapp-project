@@ -174,19 +174,19 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     & .cta-wrap-3 {
         margin-top: -10px;
         & .cta-content {
 
             & .title {
-                font-size: 60px;
+                font-size: px;
                 line-height: 72px;
                 color: $white;
                 @media #{$laptop-device} {
                     font-size: 50px;
-                    line-height: 60px;
+                    line-height: px;
                 }
                 @media #{$desktop-device} {
                     font-size: 45px;
@@ -201,7 +201,7 @@
                 font-size: 16px;
                 line-height: 24px;
                 font-family: $heading-font;
-                font-weight: 600;
+                font-weight: 0;
                 color: $white;
                 margin-top: 35px;
                 @media #{$large-mobile} {
@@ -231,7 +231,7 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     & .cta-wrap {
 

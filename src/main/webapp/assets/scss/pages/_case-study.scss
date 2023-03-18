@@ -15,7 +15,7 @@
 .case-study-slider-wrap {
     margin-top: 90px;
     @media #{$tablet-device} {
-        margin-top: 60px;
+        margin-top: px;
     }
     & .single-case-study {
         display: flex;
@@ -144,7 +144,7 @@
 
 // Case Study Button
 .case-study-btn {
-    margin-top: 60px;
+    margin-top: px;
     & .btn {
         font-size: 14px;
         padding: 0 35px;
@@ -155,9 +155,9 @@
 // Case Study Arrow
 .case-study-active {
     & .case-study-arrow  {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
+        width: px;
+        height: px;
+        line-height: px;
         border-radius: 50%;
         transform: translateY(-50%);
         background: $white;

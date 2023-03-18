@@ -50,7 +50,7 @@
                         font-weight: 400;
                         color: $heading-color;
                         display: block;
-                        margin-top: 60px;
+                        margin-top: px;
                         @media #{$desktop-device} {
                             margin-top: 40px;
                         }
@@ -201,7 +201,7 @@
             & .skill-title {
                 font-size: 14px;
                 line-height: 24px;
-                font-weight: 600;
+                font-weight: 0;
                 color: #120e1d;
             }
 
@@ -253,7 +253,7 @@
     }
     @media #{$large-mobile} {
         padding-top: 255px;
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
 
     &::before {

@@ -52,7 +52,7 @@
                 }
             }
             & .blockquote {
-                padding-left: 60px; 
+                padding-left: px; 
                 padding-right: 30px;
                 margin-left: 20px;
                 margin-bottom: 0;
@@ -84,7 +84,7 @@
                     font-family: $heading-font;
                     color: $heading-color1;
                     line-height: 32px;
-                    font-weight: 600;
+                    font-weight: 0;
                     margin-top: 0;
                 }
             }
@@ -276,7 +276,7 @@
                         font-size: 16px;
                         line-height: 24px;
                         font-family: $body-font;
-                        font-weight: 600;
+                        font-weight: 0;
                         color: $heading-color1;
                         @media #{$desktop-device} {
                             font-size: 15px;
@@ -406,7 +406,7 @@
                                 padding-top: 15px;
                                 font-size: 13px;
                                 color: #415674;
-                                font-weight: 600;
+                                font-weight: 0;
                                 padding: 10px 25px;
                                 resize: none;
                                 &:focus{

@@ -6,7 +6,7 @@
 .subscribe-section {
 
     & .subscribe-wrap {
-        background: linear-gradient( -60deg, rgb(84,214,235) 0%, rgb(3,92,221) 100%);
+        background: linear-gradient( -deg, rgb(84,214,235) 0%, rgb(3,92,221) 100%);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -48,8 +48,8 @@
             position: relative;
 
             & input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]) {
-                height: 60px;
-                line-height: 60px;
+                height: px;
+                line-height: px;
                 border: 0;
                 padding-right: 170px;
 
@@ -72,7 +72,7 @@
                 }
             }
             & button {
-                height: 60px;
+                height: px;
                 position: absolute; 
                 right: 0;
                 top: 0;

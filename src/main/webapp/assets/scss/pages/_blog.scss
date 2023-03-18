@@ -77,7 +77,7 @@
                 font-size: 14px;
                 line-height: 24px;
                 font-family: $heading-font;
-                font-weight: 600;
+                font-weight: 0;
                 color: #999999;
                 margin-right: 15px;
                 @media #{$small-mobile}{
@@ -118,7 +118,7 @@
             justify-content: space-between;
             font-size: 14px;
             font-family: $heading-font;
-            font-weight: 600;
+            font-weight: 0;
             color: $primary;
             transition: $transition-default;
 
@@ -157,7 +157,7 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     & .blog-wrap {
 

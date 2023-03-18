@@ -17,8 +17,8 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: px;
+        padding-bottom: px;
     }
     & .video-wrap {
 
@@ -26,7 +26,7 @@
             
             & .title {
                 font-size: 48px;
-                line-height: 60px;
+                line-height: px;
                 color: $white;
                 @media #{$desktop-device} {
                     font-size: 36px;

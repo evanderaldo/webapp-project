@@ -182,7 +182,7 @@
         padding-bottom: 80px;
     }
     @media #{$tablet-device} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     @media #{$large-mobile} {
         padding-bottom: 40px;
@@ -193,7 +193,7 @@
         & .testimonial-slider-wrap {
             max-width: 950px;
             margin: 0 auto;
-            margin-top: 60px;
+            margin-top: px;
             & .single-testimonial {
                 display: flex;
                 align-items: center;
@@ -212,7 +212,7 @@
                     margin-left: 90px;
                     position: relative;
                     @media #{$tablet-device} {
-                        margin-left: 60px;
+                        margin-left: px;
                     }
                     @media #{$large-mobile} {
                         margin-left: 30px;
@@ -232,7 +232,7 @@
                         font-size: 30px;
                         line-height: 48px;
                         font-family: $heading-font;
-                        font-weight: 600;
+                        font-weight: 0;
                         color: #000c29;
                         @media #{$tablet-device} {
                             font-size: 28px;
@@ -286,12 +286,12 @@
             & .single-testimonial {
                 display: flex;
                 background: $white;
-                padding: 60px 110px 60px 75px;
+                padding: px 110px px 75px;
                 border-radius: 10px;
                 margin: 15px 0;
                 position: relative;
                 @media #{$desktop-device} {
-                    padding: 60px 50px 60px 50px;
+                    padding: px 50px px 50px;
                 }
                 @media #{$large-mobile} {
                     flex-direction: column;
@@ -407,7 +407,7 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
 
 }
@@ -426,8 +426,8 @@
         padding-bottom: 80px;
     }
     @media #{$large-mobile} {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: px;
+        padding-bottom: px;
     }
     & .testimonial-wrap {
         margin-bottom: -80px;
@@ -510,7 +510,7 @@
         & .testimonial-content-wrap {
             padding-top: 35px;
             @media #{$desktop-device} {
-                padding-top: 60px;
+                padding-top: px;
             }
             & .section-title {
 
@@ -600,7 +600,7 @@
                 margin-left: 5px;
                 margin-right: 5px;
                 & .testimonial-content {
-                    padding: 50px 85px 60px 50px;
+                    padding: 50px 85px px 50px;
                     @media #{$desktop-device} {
                         padding: 50px 40px;
                     }

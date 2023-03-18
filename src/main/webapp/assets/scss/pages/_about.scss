@@ -321,7 +321,7 @@
                 position: absolute;
                 left: 0;
                 top: -35px;
-                padding: 90px 60px 65px;
+                padding: 90px px 65px;
                 border-radius: 10px;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -353,7 +353,7 @@
 
                 & .title {
                     font-size: 48px;
-                    line-height: 60px;
+                    line-height: px;
                     font-weight: 700;
                 }
             }
@@ -380,7 +380,7 @@
                 }
             }
             & .about-btn {
-                margin-top: 60px;
+                margin-top: px;
             }
         }
     }
@@ -407,7 +407,7 @@
             & .about-content {
                 padding-left: 20px;
                 padding-right: 0px;
-                margin-top: 60px;
+                margin-top: px;
                 & .section-title2 {
     
                     & .title {
@@ -504,7 +504,7 @@
                         font-size: 18px;
                         line-height: 24px;
                         font-family: $heading-font;
-                        font-weight: 600;
+                        font-weight: 0;
                         color: $heading-color1;
                         margin-top: 5px;
                     }
@@ -635,7 +635,7 @@
     & .about-wrap {
         
         & .section-title {
-            max-width: 760px;
+            max-width: 7px;
         }
         & .about-content-wrap {
             margin-top: 65px;
@@ -654,7 +654,7 @@
                 }
                 & .about-thumb-shape {
                     top: -170px;
-                    right: 60px;
+                    right: px;
                 }
             }
             & .about-content {
@@ -729,7 +729,7 @@
         }
     }
     @media #{$large-mobile} {
-        padding-bottom: 60px;
+        padding-bottom: px;
     }
     @media #{$small-mobile} {
         & .about-wrap {
@@ -837,7 +837,7 @@
     & .about-wrap {
 
         & .about-left {
-            max-width: 460px;
+            max-width: 4px;
         }
 
         & .about-right {
