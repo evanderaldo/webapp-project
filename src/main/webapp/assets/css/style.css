@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Techmax - Technology IT Solutions Consultancy HTML5 Template
+    Template Name: Gbeme City College - Technology IT Solutions Consultancy HTML5 Template
     Template URI: https://thepixelcurve.com/
     Description: A Library of Responsive Bootstrap5, HTML5, and CSS3 Website Templates
     Author: Raistheme
@@ -400,11 +400,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin-bottom: 12px;
 }
 
-.techmax-pagination .pagination .page-item {
+.Gbeme City College-pagination .pagination .page-item {
   margin: 0 3px;
 }
 
-.techmax-pagination .pagination .page-item .page-link {
+.Gbeme City College-pagination .pagination .page-item .page-link {
   width: 35px;
   height: 35px;
   padding: 0;
@@ -421,20 +421,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   transition: all 0.3s linear;
 }
 
-.techmax-pagination .pagination .page-item .page-link:focus {
+.Gbeme City College-pagination .pagination .page-item .page-link:focus {
   box-shadow: none;
 }
 
-.techmax-pagination .pagination .page-item .page-link:hover {
+.Gbeme City College-pagination .pagination .page-item .page-link:hover {
   background: #005de0;
   color: #ffffff;
 }
 
-.techmax-pagination .pagination .page-item .page-link i {
+.Gbeme City College-pagination .pagination .page-item .page-link i {
   font-size: 12px;
 }
 
-.techmax-pagination .pagination .page-item.active .page-link {
+.Gbeme City College-pagination .pagination .page-item.active .page-link {
   background: #005de0;
   color: #ffffff;
 }
@@ -9263,7 +9263,7 @@ select {
   opacity: 0.9;
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination {
   display: flex;
   flex-wrap: wrap;
   background: #ffffff;
@@ -9275,18 +9275,18 @@ select {
 }
 
 @media only screen and (max-width: 1199px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination {
     padding: 10px 20px;
   }
 }
 
 @media only screen and (max-width: 575px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination {
     padding: 0 10px;
   }
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination::before {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination::before {
   position: absolute;
   content: '';
   width: 1px;
@@ -9298,7 +9298,7 @@ select {
 }
 
 @media only screen and (max-width: 767px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination::before {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination::before {
     width: auto;
     height: 1px;
     left: 30px;
@@ -9309,35 +9309,35 @@ select {
   }
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .previous-post,
-.blog-details-post .blog-details-content .techmax-post-pagination .next-post {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .previous-post,
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .next-post {
   width: 50%;
 }
 
 @media only screen and (max-width: 767px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination .previous-post,
-  .blog-details-post .blog-details-content .techmax-post-pagination .next-post {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination .previous-post,
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination .next-post {
     width: 100%;
   }
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post {
   display: flex;
   align-items: center;
   padding: 30px 0;
 }
 
 @media only screen and (max-width: 1199px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post {
     padding: 20px 0;
   }
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-thumb {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-thumb {
   flex-shrink: 0;
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-thumb a img {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-thumb a img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -9347,30 +9347,30 @@ select {
      object-fit: cover;
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-thumb a i {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-thumb a i {
   font-size: 14px;
   color: #005de0;
   padding: 0 10px;
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-content {
   flex-grow: 1;
   padding: 0 20px;
 }
 
 @media only screen and (max-width: 1199px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-content {
     padding: 0 15px;
   }
 }
 
 @media only screen and (max-width: 575px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-content {
     padding: 0 13px;
   }
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content .title {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-content .title {
   font-size: 16px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
@@ -9379,12 +9379,12 @@ select {
 }
 
 @media only screen and (max-width: 1199px) {
-  .blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content .title {
+  .blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-content .title {
     font-size: 15px;
   }
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content .date {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-content .date {
   font-size: 12px;
   line-height: 24px;
   font-family: "Manrope", sans-serif;
@@ -9392,7 +9392,7 @@ select {
   color: #838383;
 }
 
-.blog-details-post .blog-details-content .techmax-post-pagination .blog-pagination-post .post-content .date i {
+.blog-details-post .blog-details-content .Gbeme City College-post-pagination .blog-pagination-post .post-content .date i {
   color: #005de0;
   margin-right: 6px;
 }
