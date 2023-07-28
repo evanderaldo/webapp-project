@@ -1,14 +1,16 @@
 pipeline {
+
     agent any
-    // tools{
-    //     maven 'MavenDefault'
-    // }
-    stages{
-        stage('Build Maven'){
+
+       stages{
+
+        stage('Git Checkoujt'){
             steps{
+                script{
                 checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/evanderaldo/webapp-project']])
-                sh 'mvn clean install'
+                // sh 'mvn clean install'
             }
         }   
     }         
   }
+}
