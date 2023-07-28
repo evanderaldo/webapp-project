@@ -1,10 +1,12 @@
 pipeline {
 
     agent any
-
-       stages{
-
-        stage('Git Checkoujt'){
+<<<<<<< HEAD
+    // tools{
+    //     maven 'MavenDefault'
+    // }
+    stages{
+        stage('Git Checkout'){
             steps{
                 script{
                 checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/evanderaldo/webapp-project']])
